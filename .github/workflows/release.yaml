@@ -28,7 +28,7 @@ env:
 
   # Whether to build and package a release for a given target platform.
   build_for_web: true
-  # rallen turned off building for other platforms to save time.
+  # rallen - turned off Linux, Windows, and macOS builds to reduce CI time.
   build_for_linux: false
   build_for_windows: false
   build_for_macos: false
